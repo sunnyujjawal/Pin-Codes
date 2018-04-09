@@ -1,0 +1,66 @@
+.navbar-default {
+  background-color: #3598DC;
+  border-color: #3598DC;
+}
+.navbar-default .navbar-brand {
+  color: #fbfeff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #fbfeff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fbfeff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #18a391;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #18a391;
+}
+.navbar-default .navbar-toggle {
+  border-color: #18a391;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #18a391;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fbfeff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #fbfeff;
+}
+.navbar-default .navbar-link {
+  color: #fbfeff;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fbfeff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #18a391;
+  }
+}
+
+h1,h2,h3,h4,h5,h6,body{font-family:'Open Sans',Arial,Helvetice Neue,sans-serif;}
+h1{width:100%;font-size:20px;color:#3598DC;font-weight:bold;border-bottom:2px solid #EEEEEE;padding-bottom:2%;}
+.footerlink a {color:#ffffff; text-decoration:none;}
+.footerlink a:hover{color:#fff;}
+a {color:#3598DC;}
+a:hover{color:#09BAAB; text-decoration:none;}
